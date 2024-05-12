@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ country|upper }} - Olympic Basketball Rosters</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.3rem;
+        }
+
+        .roster-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px;
+        }
+        .player-card p {
+                    margin-bottom: 0.3em !important; /* Decrease the margin-bottom value to reduce space between <p> elements */
+                }
+        .player-card {
+            grid-column: span 1;
+            margin-right: 16px;
+            margin-bottom: 1em !important; /* Increase the margin-bottom value to create more space between players */
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 3rem;
+        }
+
+        h3 {
+            
+            /* Make the titles of the rows bigger */
+            background-color: rgb(43, 41, 41);
+            color: #f0f0f0;;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.2em;
+            
+            /* Add margin to create space between titles and player data */
+        }
+
+        .player-card {
+            margin-right: 16px;
+            margin-bottom: 0.3em;
+        }
+
+        .roster-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/"
+        style="position: absolute; top: 20px; left: 20px; background-color: #333; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Go
+        Back</a>
+    <button  style="position: absolute; top: 20px; right: 20px; background-color: #333; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none;"
+         id="download">Download as PDF</button>
+
+    <h1>{{ country|upper }} ROSTER - 2023 FIBA WORLD CUP</h1>
+    <div class="roster-container">
+        {% for pos, players in rosters.items() %}
+        <div class="player-card"style="{% if loop.index0 == 0 %}{% endif %}" href="">
+            <h3>{{ positionMap[pos] }}</h3>
+            {% for player in players %}
+            <img src="{{ player.image }}" alt="{{ player.Player }}" width="100">
+            <br>
+            <a href="{{ url_for('player', country=country, player_name=player.Player) }}" style="color: blue; text-decoration: underline;"><strong>{{ player.Player }}</strong></a> - <span style="background-color: yellow;">{{ player.hand|upper }}</span>
+            <p>{{ player.HT }} {{pos}} <span style="color: green;">{{player.match_info_national}}</span></p>
+            <p>{{ player.age }}</p>
+            <p>{{ player.last_season_team }}</p>
+            <p>{{ player.years_pro }}</p>
+            <p>{{ player.national_experience }}</p>
+            <p>{{ player.last_event_played }}</p>
+            <br>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <hr>
+    {{ last_season_data.style.background_gradient(subset=['GP', 'MIN', 'PTS', 'TRB', 'AST', 'FGM', 'FGA', 'FG%', '3PM', '3PA', '3P%', 'FTM', 'FTA','FT%', 'DEF', 'STL', 'BLK', 'PF', 'TOV'],cmap='Reds').to_html()|safe }}</body>
+<script>
+    document.getElementById('download').addEventListener('click', function() {
+        var element = document.body;
+        var opt = {
+            margin:       0.5,
+            filename:     'roster_info.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2 },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
+        };
+        html2pdf().set(opt).from(element).save();
+    });
+    </script>
+</html>

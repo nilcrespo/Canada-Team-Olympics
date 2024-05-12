@@ -1,0 +1,448 @@
+Quarter,Clock,Player,Team,Action,TeamLineup,OpponentLineup,Points,OPPpoints,FGA,OPPFGA,FTA,OPPFTA,oREB,OPPoREB,dREB,OPPdREB,TOV,OPPTOV
+1,10:00:00,nan,nan,START of Game,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,Dwight POWELL,CAN,Jump ball won,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,Omari Rasulala SPELLMAN,LBN,Jump ball lost,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:47:00,Shai GILGEOUS-ALEXANDER,CAN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:47:00,Omari Rasulala SPELLMAN,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:32:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:14:00,RJ BARRETT,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:14:00,Sergio EL DARWICH,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:59:00,Ali HAIDAR,LBN,"2PtsFG outside paint, Hook Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:59:00,Kelly OLYNYK,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:51:00,RJ BARRETT,CAN,"Turnover, Ball handling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:51:00,Ali HAIDAR,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:46:00,RJ BARRETT,CAN,"Personal foul (P1,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:46:00,Ali HAIDAR,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:39:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Hook Shot made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:39:00,Sergio EL DARWICH,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Dwight POWELL,CAN,"2PtsFG inside paint, Layup made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Shai GILGEOUS-ALEXANDER,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Ali MEZHER,LBN,"Personal foul, 1 free throw awarded (P1,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Dwight POWELL,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Dwight POWELL,CAN,Free Throw made 1 of 1 (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:04:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG outside paint, Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:04:00,RJ BARRETT,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:54:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG outside paint, Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:54:00,Omari Rasulala SPELLMAN,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:43:00,Sergio EL DARWICH,LBN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:43:00,Dwight POWELL,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:40:00,Dillon BROOKS,CAN,"Turnover, Ball handling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:40:00,Wael ARAKJI,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:40:00,Kelly OLYNYK,CAN,"Personal foul (P1,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:40:00,Wael ARAKJI,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:25:00,Sergio EL DARWICH,LBN,"2PtsFG outside paint, Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:25:00,Kelly OLYNYK,CAN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:16:00,Dwight POWELL,CAN,"2PtsFG inside paint, Alley-oop made (5 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:16:00,Kelly OLYNYK,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:57:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,RJ BARRETT,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Ali MEZHER,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:32:00,Ali MEZHER,LBN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:14:00,RJ BARRETT,CAN,3PtsFG made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:14:00,Dillon BROOKS,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:53:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG outside paint, Fadeaway Jump Shot made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:37:00,Kelly OLYNYK,CAN,"2PtsFG inside paint, Jump Shot made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:37:00,RJ BARRETT,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:20:00,Wael ARAKJI,LBN,"2PtsFG outside paint, Fadeaway Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:20:00,Kelly OLYNYK,CAN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:14:00,RJ BARRETT,CAN,"2PtsFG fast break, Dunk made (5 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:14:00,Kelly OLYNYK,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:58:00,Ali HAIDAR,LBN,"Turnover, Ball handling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:50:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG inside paint, Dunk made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:33:00,Sergio EL DARWICH,LBN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:33:00,RJ BARRETT,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:26:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG inside paint, Driving Layup made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:26:00,nan,nan,Timeout,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:26:00,Karim ZEINOUN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:15:00,Wael ARAKJI,LBN,"Turnover, Travelling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:02:00,Dillon BROOKS,CAN,"2PtsFG inside paint, Hook Shot made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:02:00,Kelly OLYNYK,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:43:00,Omari Rasulala SPELLMAN,LBN,3PtsFG made (5 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:19:00,Shai GILGEOUS-ALEXANDER,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:19:00,Dwight POWELL,CAN,Offensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:13:00,Dwight POWELL,CAN,"2PtsFG inside paint, Turnaround Jump Shot made (7 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:56:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG outside paint, Pullup Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:56:00,Shai GILGEOUS-ALEXANDER,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:48:00,Dillon BROOKS,CAN,3PtsFG made (5 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:48:00,Shai GILGEOUS-ALEXANDER,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:33:00,Sergio EL DARWICH,LBN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:33:00,Ali HAIDAR,LBN,Offensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Putback Tip-in missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Dwight POWELL,CAN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Karim ZEINOUN,LBN,"Personal foul (P1,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Shai GILGEOUS-ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Ali MANSOUR,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Nickeil ALEXANDER-WALKER,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:27:00,Kyle ALEXANDER,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:09:00,Kelly OLYNYK,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:09:00,Omari Rasulala SPELLMAN,LBN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:57:00,Wael ARAKJI,LBN,"Turnover, Travelling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:57:00,Phil SCRUBB,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:57:00,Trae BELL-HAYNES,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:45:00,Kyle ALEXANDER,CAN,"Offensive foul (P1,T3), Turnover (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:45:00,Kyle ALEXANDER,CAN,Turnover (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:45:00,Karim ZEINOUN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:45:00,Amir SAOUD,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:45:00,Melvin EJIM,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:33:00,Omari Rasulala SPELLMAN,LBN,"Offensive foul (P1,T3), Turnover (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:33:00,Omari Rasulala SPELLMAN,LBN,Turnover (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:33:00,Kyle ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:33:00,Hayk GYOKCHYAN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Karim ZEINOUN,LBN,"Personal foul (P2,T4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Trae BELL-HAYNES,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:15:00,Trae BELL-HAYNES,CAN,3PtsFG made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:15:00,Nickeil ALEXANDER-WALKER,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:55:00,Amir SAOUD,LBN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:31:00,Trae BELL-HAYNES,CAN,3PtsFG made (6 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:31:00,Phil SCRUBB,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Kyle ALEXANDER,CAN,"Personal foul, 2 free throws awarded (P2,T4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Amir SAOUD,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Amir SAOUD,LBN,Free Throw made 1 of 2 (1 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Karim ZEINOUN,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Amir SAOUD,LBN,Free Throw made 2 of 2 (2 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:12:00,Sergio EL DARWICH,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:04:00,Nickeil ALEXANDER-WALKER,CAN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:04:00,Ali MANSOUR,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:01:00,Ali MANSOUR,LBN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:01:00,Trae BELL-HAYNES,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,Trae BELL-HAYNES,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,nan,nan,END of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,START of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,Alternating Possession Gained,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:43:00,Sergio EL DARWICH,LBN,"2PtsFG inside paint, Layup made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:43:00,Ali HAIDAR,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:26:00,Trae BELL-HAYNES,CAN,3PtsFG made (9 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:26:00,Nickeil ALEXANDER-WALKER,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:16:00,Ali MANSOUR,LBN,"Turnover, Ball handling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:16:00,Wael ARAKJI,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:53:00,Melvin EJIM,CAN,3PtsFG made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:53:00,Phil SCRUBB,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:31:00,Ali HAIDAR,LBN,"Turnover, Ball handling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:31:00,Melvin EJIM,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Amir SAOUD,LBN,"Personal foul (P1,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Trae BELL-HAYNES,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:19:00,Melvin EJIM,CAN,"2PtsFG inside paint, Driving Layup made (5 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:19:00,Nickeil ALEXANDER-WALKER,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:58:00,Amir SAOUD,LBN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:58:00,Kyle ALEXANDER,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:51:00,Trae BELL-HAYNES,CAN,3PtsFG fast break made (12 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:51:00,Phil SCRUBB,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:37:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Hook Shot made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:37:00,Hayk GYOKCHYAN,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:21:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:21:00,Wael ARAKJI,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:11:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup made (6 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:58:00,Melvin EJIM,CAN,3PtsFG made (8 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:58:00,Nickeil ALEXANDER-WALKER,CAN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:40:00,Trae BELL-HAYNES,CAN,"Personal foul (P1,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:40:00,Hayk GYOKCHYAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:40:00,Karim Raphael EZZEDINE,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:34:00,Ali HAIDAR,LBN,"Turnover, Bad pass (3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:34:00,Melvin EJIM,CAN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Phil SCRUBB,CAN,3PtsFG fast break made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Trae BELL-HAYNES,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:13:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:13:00,Karim Raphael EZZEDINE,LBN,Offensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:07:00,Karim Raphael EZZEDINE,LBN,"2PtsFG inside paint, Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:07:00,Melvin EJIM,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:06:00,Sergio EL DARWICH,LBN,"Personal foul (P1,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:06:00,Nickeil ALEXANDER-WALKER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:06:00,Omari Rasulala SPELLMAN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:06:00,Zach EDEY,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:56:00,Zach EDEY,CAN,"2PtsFG inside paint, Layup made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:56:00,Phil SCRUBB,CAN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:39:00,Amir SAOUD,LBN,"2PtsFG inside paint, Floating Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:39:00,Melvin EJIM,CAN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:30:00,Melvin EJIM,CAN,"2PtsFG inside paint, Layup blocked",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:30:00,Ali HAIDAR,LBN,Blocked shot (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:30:00,Melvin EJIM,CAN,Offensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:24:00,Melvin EJIM,CAN,"Turnover, Ball handling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:24:00,Karim Raphael EZZEDINE,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:12:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,Ali HAIDAR,LBN,"Personal foul (P1,T3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,Zach EDEY,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,Karim ZEINOUN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,Shai GILGEOUS-ALEXANDER,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,RJ BARRETT,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:51:00,Dillon BROOKS,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:46:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:46:00,Zach EDEY,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:24:00,Omari Rasulala SPELLMAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:24:00,Shai GILGEOUS-ALEXANDER,CAN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:11:00,Zach EDEY,CAN,"2PtsFG outside paint, Hook Shot made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:11:00,Shai GILGEOUS-ALEXANDER,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:58:00,Ali HAIDAR,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:58:00,Nickeil ALEXANDER-WALKER,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Ali HAIDAR,LBN,"Personal foul, 2 free throws awarded (P2,T4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Shai GILGEOUS-ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Kelly OLYNYK,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,nan,nan,Timeout,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Shai GILGEOUS-ALEXANDER,CAN,Free Throw made 1 of 2 (5 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Nickeil ALEXANDER-WALKER,CAN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:51:00,Shai GILGEOUS-ALEXANDER,CAN,Free Throw made 2 of 2 (6 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:29:00,Karim Raphael EZZEDINE,LBN,"2PtsFG inside paint, Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:29:00,Shai GILGEOUS-ALEXANDER,CAN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:21:00,Shai GILGEOUS-ALEXANDER,CAN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:21:00,Karim Raphael EZZEDINE,LBN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:05:00,Karim ZEINOUN,LBN,"2PtsFG inside paint, Pullup Jump Shot made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:05:00,Wael ARAKJI,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:48:00,RJ BARRETT,CAN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:48:00,Ali HAIDAR,LBN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:31:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Layup made (6 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:31:00,Omari Rasulala SPELLMAN,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG inside paint, Jump Shot made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Kelly OLYNYK,CAN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:04:00,Karim Raphael EZZEDINE,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:04:00,Shai GILGEOUS-ALEXANDER,CAN,Defensive rebound (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:56:00,RJ BARRETT,CAN,"2PtsFG inside paint, Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:56:00,Kelly OLYNYK,CAN,Offensive rebound (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:50:00,Kelly OLYNYK,CAN,"2PtsFG inside paint, Putback Tip-in made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:44:00,Karim ZEINOUN,LBN,3PtsFG made (5 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:44:00,Wael ARAKJI,LBN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:35:00,RJ BARRETT,CAN,"2PtsFG fast break, Driving Layup made (7 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:35:00,Shai GILGEOUS-ALEXANDER,CAN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:20:00,Wael ARAKJI,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:20:00,Kelly OLYNYK,CAN,Defensive rebound (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:12:00,RJ BARRETT,CAN,"2PtsFG fast break, Layup made (9 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:12:00,Shai GILGEOUS-ALEXANDER,CAN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:59:00,Kelly OLYNYK,CAN,"Personal foul (P2,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:59:00,Karim Raphael EZZEDINE,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:59:00,Hayk GYOKCHYAN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:59:00,Melvin EJIM,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:59:00,Trae BELL-HAYNES,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:53:00,nan,nan,Alternating Possession Gained,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:35:00,RJ BARRETT,CAN,"2PtsFG inside paint, Floating Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:33:00,Hayk GYOKCHYAN,LBN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:20:00,Karim ZEINOUN,LBN,"2PtsFG inside paint, Jump Shot made (7 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:06:00,RJ BARRETT,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:03:00,Melvin EJIM,CAN,Offensive rebound (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,Dillon BROOKS,CAN,3PtsFG made (8 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,Melvin EJIM,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,nan,nan,END of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,START of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,Alternating Possession Gained,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:47:00,Omari Rasulala SPELLMAN,LBN,"Turnover, Ball handling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:34:00,Dillon BROOKS,CAN,"Turnover, Travelling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:09:00,Karim ZEINOUN,LBN,3PtsFG made (10 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:09:00,Hayk GYOKCHYAN,LBN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:49:00,Kelly OLYNYK,CAN,"2PtsFG inside paint, Layup made (6 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Karim ZEINOUN,LBN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:29:00,Dillon BROOKS,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:24:00,Kelly OLYNYK,CAN,"2PtsFG fast break, Dunk made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:24:00,Dillon BROOKS,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:05:00,Wael ARAKJI,LBN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:05:00,Shai GILGEOUS-ALEXANDER,CAN,Defensive rebound (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:56:00,RJ BARRETT,CAN,3PtsFG fast break made (12 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:56:00,Kelly OLYNYK,CAN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:44:00,Hayk GYOKCHYAN,LBN,"Offensive foul (P1,T1), Turnover (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:44:00,Hayk GYOKCHYAN,LBN,Turnover (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:44:00,RJ BARRETT,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:20:00,Dillon BROOKS,CAN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:20:00,Kelly OLYNYK,CAN,Offensive rebound (6),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:11:00,Kelly OLYNYK,CAN,"2PtsFG inside paint, Putback Tip-in made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:09:00,Karim ZEINOUN,LBN,"Turnover, Ball handling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:09:00,Shai GILGEOUS-ALEXANDER,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:05:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG fast break, Layup made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:47:00,Sergio EL DARWICH,LBN,"2PtsFG inside paint, Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:47:00,nan,nan,Offensive Team rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:47:00,RJ BARRETT,CAN,"Personal foul (P2,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:47:00,Omari Rasulala SPELLMAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:47:00,Ali MEZHER,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:34:00,Hayk GYOKCHYAN,LBN,"Turnover, Ball handling (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:34:00,Kelly OLYNYK,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Dwight POWELL,CAN,"2PtsFG inside paint, Alley-oop missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Kelly OLYNYK,CAN,Offensive rebound (7),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Hayk GYOKCHYAN,LBN,"Personal foul, 2 free throws awarded (P2,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Kelly OLYNYK,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Kelly OLYNYK,CAN,Free Throw made 1 of 2 (11 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:26:00,Kelly OLYNYK,CAN,Free Throw made 2 of 2 (12 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:10:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG outside paint, Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:10:00,Dwight POWELL,CAN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:03:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG inside paint, Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:02:00,nan,nan,Offensive Team rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:02:00,Amir SAOUD,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:02:00,Ali HAIDAR,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:56:00,Shai GILGEOUS-ALEXANDER,CAN,"2PtsFG inside paint, Dunk made (12 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:56:00,Dwight POWELL,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:32:00,Amir SAOUD,LBN,"2PtsFG outside paint, Pullup Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:32:00,Kelly OLYNYK,CAN,Defensive rebound (8),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:20:00,Ali MEZHER,LBN,"Personal foul (P2,T3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:20:00,Shai GILGEOUS-ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:10:00,Dillon BROOKS,CAN,"Turnover, Bad pass (3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:10:00,Sergio EL DARWICH,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:52:00,Ali HAIDAR,LBN,"Turnover, Ball handling (4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:52:00,Dillon BROOKS,CAN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:49:00,RJ BARRETT,CAN,"2PtsFG fast break, Dunk made (14 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:49:00,Dillon BROOKS,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:49:00,nan,nan,Timeout,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:49:00,Trae BELL-HAYNES,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:27:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG inside paint, Pullup Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:25:00,nan,nan,Offensive Team rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:13:00,Sergio EL DARWICH,LBN,3PtsFG made (5 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:53:00,Dwight POWELL,CAN,"2PtsFG inside paint, Layup made (9 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:53:00,RJ BARRETT,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG inside paint, Layup made (7 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Amir SAOUD,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Trae BELL-HAYNES,CAN,"Personal foul, 1 free throw awarded (P2,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Omari Rasulala SPELLMAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Melvin EJIM,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Kyle ALEXANDER,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:42:00,Omari Rasulala SPELLMAN,LBN,Free Throw made 1 of 1 (8 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:24:00,RJ BARRETT,CAN,3PtsFG made (17 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:07:00,Sergio EL DARWICH,LBN,"2PtsFG inside paint, Driving Layup made (7 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:56:00,Dillon BROOKS,CAN,"2PtsFG inside paint, Dunk made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:56:00,RJ BARRETT,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:39:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG outside paint, Fadeaway Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:39:00,Ali HAIDAR,LBN,Offensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:32:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Putback Tip-in made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Ali MEZHER,LBN,"Personal foul, 2 free throws awarded (P3,T4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Kyle ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Nickeil ALEXANDER-WALKER,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Phil SCRUBB,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Karim Raphael EZZEDINE,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Kyle ALEXANDER,CAN,Free Throw made 1 of 2 (1 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Trae BELL-HAYNES,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Kyle ALEXANDER,CAN,Free Throw missed 2 of 2,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:20:00,Ali MEZHER,LBN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:01:00,Ali HAIDAR,LBN,3PtsFG made (11 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:01:00,Amir SAOUD,LBN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Ali HAIDAR,LBN,"Personal foul, 2 free throws awarded (P3,T5)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Kyle ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Kyle ALEXANDER,CAN,Free Throw made 1 of 2 (2 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Nickeil ALEXANDER-WALKER,CAN,Assist (6),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Kyle ALEXANDER,CAN,Free Throw missed 2 of 2,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:49:00,Ali HAIDAR,LBN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:29:00,Amir SAOUD,LBN,"Turnover, Bad pass (3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:29:00,Kyle ALEXANDER,CAN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Phil SCRUBB,CAN,"2PtsFG fast break, Layup made (5 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Trae BELL-HAYNES,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Karim Raphael EZZEDINE,LBN,"Personal foul, 1 free throw awarded (P1,T6)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Phil SCRUBB,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:24:00,Phil SCRUBB,CAN,Free Throw fast break made 1 of 1 (6 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:05:00,Sergio EL DARWICH,LBN,"2PtsFG inside paint, Floating Jump Shot made (9 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:05:00,Ali MEZHER,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:38:00,Kyle ALEXANDER,CAN,"2PtsFG inside paint, Floating Jump Shot made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:38:00,Melvin EJIM,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:18:00,Ali HAIDAR,LBN,"2PtsFG inside paint, Fadeaway Jump Shot missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:18:00,Melvin EJIM,CAN,Defensive rebound (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG made (6 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,Melvin EJIM,CAN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,nan,nan,END of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,START of Period,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,10:00:00,nan,nan,Alternating Possession Gained,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:45:00,Zach EDEY,CAN,"2PtsFG inside paint, Hook Shot made (6 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:45:00,Trae BELL-HAYNES,CAN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:20:00,Sergio EL DARWICH,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:20:00,Zach EDEY,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:16:00,Trae BELL-HAYNES,CAN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:16:00,Amir SAOUD,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,09:09:00,Amir SAOUD,LBN,"2PtsFG fast break, Layup made (4 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:50:00,Trae BELL-HAYNES,CAN,3PtsFG made (15 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:50:00,Zach EDEY,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:36:00,Ali HAIDAR,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:36:00,Trae BELL-HAYNES,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:25:00,Sergio EL DARWICH,LBN,"Personal foul, 2 free throws awarded (P2,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:25:00,Zach EDEY,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:25:00,Zach EDEY,CAN,Free Throw missed 1 of 2,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:25:00,Zach EDEY,CAN,Free Throw missed 2 of 2,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:25:00,Kyle ALEXANDER,CAN,Offensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:20:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG made (9 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:20:00,Kyle ALEXANDER,CAN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:08:00,Karim Raphael EZZEDINE,LBN,"2PtsFG inside paint, Layup blocked",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:08:00,Nickeil ALEXANDER-WALKER,CAN,Blocked shot (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:08:00,Phil SCRUBB,CAN,Defensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Kyle ALEXANDER,CAN,Offensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Kyle ALEXANDER,CAN,"2PtsFG inside paint, Jump Shot made (6 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,nan,nan,Timeout,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Omari Rasulala SPELLMAN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Wael ARAKJI,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,08:00:00,Hayk GYOKCHYAN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:43:00,Omari Rasulala SPELLMAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:43:00,Ali MEZHER,LBN,Offensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:23:00,Amir SAOUD,LBN,"Turnover, Bad pass (4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:23:00,Nickeil ALEXANDER-WALKER,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:23:00,Wael ARAKJI,LBN,"Personal foul (P1,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:23:00,Phil SCRUBB,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:23:00,Melvin EJIM,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:11:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:11:00,Zach EDEY,CAN,Offensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:05:00,Zach EDEY,CAN,"Turnover, Ball handling (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,07:05:00,Amir SAOUD,LBN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:59:00,Omari Rasulala SPELLMAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:59:00,Kyle ALEXANDER,CAN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:59:00,Phil SCRUBB,CAN,"Turnover, Bad pass (1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:59:00,Karim ZEINOUN,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG inside paint, Driving Layup made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Wael ARAKJI,LBN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Zach EDEY,CAN,"Personal foul, 1 free throw awarded (P1,T1)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Omari Rasulala SPELLMAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:36:00,Omari Rasulala SPELLMAN,LBN,Free Throw made 1 of 1 (11 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:16:00,Zach EDEY,CAN,"2PtsFG inside paint, Hook Shot made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,06:16:00,Kyle ALEXANDER,CAN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:42:00,Karim ZEINOUN,LBN,3PtsFG made (13 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:42:00,Wael ARAKJI,LBN,Assist (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:33:00,Nickeil ALEXANDER-WALKER,CAN,3PtsFG made (12 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:29:00,Wael ARAKJI,LBN,"Turnover, Ball handling (3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:29:00,Phil SCRUBB,CAN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:23:00,Kyle ALEXANDER,CAN,"2PtsFG fast break, Alley-oop made (8 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:23:00,Nickeil ALEXANDER-WALKER,CAN,Assist (7),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:11:00,Jad KHALIL,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:11:00,Trae BELL-HAYNES,CAN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:04:00,Karim ZEINOUN,LBN,"2PtsFG inside paint, Driving Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,05:04:00,Omari Rasulala SPELLMAN,LBN,Offensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:59:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG inside paint, Dunk made (13 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:43:00,Melvin EJIM,CAN,"2PtsFG inside paint, Layup made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:43:00,Trae BELL-HAYNES,CAN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:30:00,Hayk GYOKCHYAN,LBN,3PtsFG made (3 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:30:00,Omari Rasulala SPELLMAN,LBN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:11:00,Phil SCRUBB,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:11:00,Kyle ALEXANDER,CAN,Offensive rebound (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:08:00,Kyle ALEXANDER,CAN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:08:00,Wael ARAKJI,LBN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:02:00,Hayk GYOKCHYAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,04:02:00,Zach EDEY,CAN,Defensive rebound (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:31:00,Melvin EJIM,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:31:00,Trae BELL-HAYNES,CAN,Offensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:25:00,Omari Rasulala SPELLMAN,LBN,"Personal foul, 2 free throws awarded (P2,T3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:25:00,Kyle ALEXANDER,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:25:00,Kyle ALEXANDER,CAN,Free Throw made 1 of 2 (9 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:25:00,Trae BELL-HAYNES,CAN,Assist (6),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:25:00,Kyle ALEXANDER,CAN,Free Throw made 2 of 2 (10 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:23:00,Karim ZEINOUN,LBN,"2PtsFG fast break, Layup made (15 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:23:00,Hayk GYOKCHYAN,LBN,Assist (3),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:08:00,Zach EDEY,CAN,"2PtsFG inside paint, Dunk made (10 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,03:08:00,Trae BELL-HAYNES,CAN,Assist (7),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Omari Rasulala SPELLMAN,LBN,"2PtsFG inside paint, Driving Layup made (15 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Wael ARAKJI,LBN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Zach EDEY,CAN,"Personal foul, 1 free throw awarded (P2,T2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Omari Rasulala SPELLMAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Mark ALKHOURY,LBN,Substitution,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:54:00,Omari Rasulala SPELLMAN,LBN,Free Throw made 1 of 1 (16 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:37:00,Melvin EJIM,CAN,3PtsFG made (13 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:37:00,Trae BELL-HAYNES,CAN,Assist (8),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:28:00,Hayk GYOKCHYAN,LBN,"2PtsFG inside paint, Driving Layup made (5 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:28:00,Jad KHALIL,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:05:00,Trae BELL-HAYNES,CAN,"Turnover, Bad pass (2)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:05:00,Hayk GYOKCHYAN,LBN,Steal (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:02:00,Jad KHALIL,LBN,"2PtsFG fast break, Layup made (2 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,02:02:00,Karim ZEINOUN,LBN,Assist (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:44:00,Trae BELL-HAYNES,CAN,"Turnover, Ball handling (3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:44:00,Hayk GYOKCHYAN,LBN,Steal (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:40:00,Jad KHALIL,LBN,"2PtsFG inside paint, Layup missed",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:40:00,Karim ZEINOUN,LBN,Offensive rebound (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:31:00,Trae BELL-HAYNES,CAN,"Personal foul (P3,T3)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:31:00,Hayk GYOKCHYAN,LBN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:28:00,Omari Rasulala SPELLMAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:28:00,Zach EDEY,CAN,Defensive rebound (4),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:20:00,Karim ZEINOUN,LBN,"Personal foul (P3,T4)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:20:00,Trae BELL-HAYNES,CAN,Foul drawn,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:04:00,Zach EDEY,CAN,"2PtsFG outside paint, Hook Shot made (12 Pts)",,,0,0,0,0,0,0,0,0,0,0,0,0
+1,01:04:00,Phil SCRUBB,CAN,Assist (5),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:44:00,Hayk GYOKCHYAN,LBN,3PtsFG made (8 Pts),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:44:00,Mark ALKHOURY,LBN,Assist (1),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:32:00,Kyle ALEXANDER,CAN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:32:00,Karim ZEINOUN,LBN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:25:00,Hayk GYOKCHYAN,LBN,3PtsFG missed,,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:25:00,Phil SCRUBB,CAN,Defensive rebound (2),,,0,0,0,0,0,0,0,0,0,0,0,0
+1,00:00:00,nan,nan,END of Game,,,0,0,0,0,0,0,0,0,0,0,0,0

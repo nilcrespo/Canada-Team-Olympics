@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Olympic Basketball Rosters</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 3rem;
+        }
+
+        ul {
+            list-style: none;
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.3rem;
+        }
+
+        .flag-icon {
+            width: 40px;
+            height: 30px;
+            font-size: 2rem;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .flag-link {
+        display: flex;
+        align-items: center;
+        }
+
+        .continent-title {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .continent-row {
+            margin-bottom: 3rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Olympic Basketball Rosters 2024</h1>
+
+    <div class="continent-row">
+        <div class="continent-title">Europe</div>
+        <ul class="europe-continent">
+            {% for continent, countries in rosters.items() %}
+            {% if 'Europe' in continent %}
+            {% for country, roster in countries.items()%}
+            <li>
+                <a href="{{ url_for('roster', country=country) }}" class="flag-link">
+                    <img src="{{ roster.flag }}" class="flag-icon">
+                    {{ country }}
+                </a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="continent-row">
+        <div class="continent-title">Americas</div>
+        <ul class="americas-continent">
+            {% for continent, countries in rosters.items() %}
+            {% if 'America' in continent %}
+            {% for country, roster in countries.items()%}
+            <li>
+                <a href="{{ url_for('roster', country=country) }}" class="flag-link">
+                    <img src="{{ roster.flag }}" class="flag-icon">
+                    <!-- <span class="flag-icon flag-icon-{{ country.lower() }}"></span> -->
+                    {{ country }}
+                </a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="continent-row">
+        <div class="continent-title">Asia</div>
+        <ul class="asia-continent">
+            {% for continent, countries in rosters.items() %}
+            {% if 'Asia' in continent %}
+            {% for country, roster in countries.items()%}
+            <li>
+                <a href="{{ url_for('roster', country=country) }}" class="flag-link">
+                    <img src="{{ roster.flag }}" class="flag-icon">
+                    {{ country }}
+                </a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="continent-row">
+        <div class="continent-title">Africa</div>
+        <ul class="africa-continent">
+            {% for continent, countries in rosters.items() %}
+            {% if 'Africa' in continent %}
+            {% for country, roster in countries.items()%}
+            <li>
+                <a href="{{ url_for('roster', country=country) }}" class="flag-link">
+                    <img src="{{ roster.flag }}" class="flag-icon">
+                    {{ country }}
+                </a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="continent-row">
+        <div class="continent-title">Oceania</div>
+        <ul class="oceania-continent">
+            {% for continent, countries in rosters.items() %}
+            {% if 'Oceania' in continent %}
+            {% for country, roster in countries.items()%}
+            <li>
+                <a href="{{ url_for('roster', country=country) }}" class="flag-link">
+                    <img src="{{ roster.flag }}" class="flag-icon">
+                    {{ country }}
+                </a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    
+    </body>
+    
+    </html>
