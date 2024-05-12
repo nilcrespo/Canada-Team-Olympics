@@ -62,7 +62,7 @@ def player(country, player_name):
         if player['Player'] == player_name:
             # Pass the player's data to the template
             all_tables = player['tables']
-            return render_template('player.html', player=player, tables = all_tables)
+            return render_template('player.html', player=player, tables = all_tables, country=country)
     # If the player was not found, return a 404 error
     abort(404)
 

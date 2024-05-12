@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 from models import Country, Player
-from auxiliar_fns import fix_positions, get_rosters, rosters
+from olympic_rosters.auxiliar_fns import fix_positions, get_rosters, rosters
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///olympic_rosters.db'

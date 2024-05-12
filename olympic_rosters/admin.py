@@ -3,7 +3,7 @@ from flask_admin.contrib.sqla import ModelView
 from models import Country, Player
 from flask_sqlalchemy import SQLAlchemy
 
-from app import app
+from olympic_rosters.app import app
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'  # Use the appropriate database URI for your application
 db = SQLAlchemy(app)
