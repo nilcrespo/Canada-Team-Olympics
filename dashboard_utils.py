@@ -21,20 +21,20 @@ def calculate_assist_player(df_):
     - The function removes rows where the AssisterName is null and renames the 'name' column to 'ShooterName' in the resulting dataframe.
     """
 
-    df_['AssisterName'] = df_['name']
+    df_['AssisterName'] = df_['Player']
 
     # Conditions
     conditions = [
-        (df_['seconds_elapsed'] == df_['seconds_elapsed'].shift(-1)) & (df_['AC'] != 'ASS'),
-        (df_['AC'].shift(1) == 'ASS') & (df_['AC'] == 'FT') & (df_['seconds_elapsed'] == df_['seconds_elapsed'].shift(1)),
-        (df_['seconds_elapsed'] != df_['seconds_elapsed'].shift(-1)) | (df_['AC'] == 'ASS')
+        (df_['time_elapsed'] == df_['time_elapsed'].shift(-1)) & (~df_['Action_Description'].str.contains('assist')),
+        (df_['Action_Description'].shift(1).str.contains('ASS')) & (df_['Action_Description'].str.contains('free throw')) & (df_['time_elapsed'] == df_['time_elapsed'].shift(1)),
+        (df_['time_elapsed'] != df_['time_elapsed'].shift(-1)) | (df_['Action_Description'].str.contains('assist'))
     ]
 
     # Choices
     choices = [
-        df_['name'].shift(-1),
-        df_['name'].shift(1), # The assist player name for free throws should be the same as the player name with AC 'ASS'
-        df_['name']
+        df_['Player'].shift(-1),
+        df_['Player'].shift(1), # The assist player name for free throws should be the same as the player name with AC 'ASS'
+        df_['Player']
     ]
 
     # Apply the conditions and choices
@@ -42,7 +42,7 @@ def calculate_assist_player(df_):
 
     # Remove unnecessary rows
     df_2 = df_.drop(df_[df_['AssisterName'].isnull()].index)
-    df_2.rename(columns={'name':'ShooterName'}, inplace=True)
+    df_2.rename(columns={'Player':'ShooterName'}, inplace=True)
     return df_2
 
 
@@ -69,24 +69,24 @@ def successful_offense(df, rsc, nationality):
     - The function calls the 'calculate_assist_player' function to calculate the assist player for successful shots only.
     - The function returns two dataframes: the modified dataframe with offense event data and the modified dataframe with assist player information for successful shots only.
     """
-    df_canada = df[(df.rsc==rsc)&(df.Nationality==nationality)]
+    df_canada = df[(df.game_code==rsc)&(df.Team==nationality)]
 
 
     searchfor = ['made', 'missed', 'Assist']
-    s = df_canada['Action'].str.contains('|'.join(searchfor))
+    s = df_canada['Action_Description'].str.contains('|'.join(searchfor))
     df_ = df_canada.loc[s]
 
     df_['ShotOutcome'] = ''
-    df_.loc[df_.Action.str.contains('made'), 'ShotOutcome'] = 'made'
-    df_.loc[df_.Action.str.contains('missed'), 'ShotOutcome'] = 'missed'
+    df_.loc[df_.Action_Description.str.contains('made'), 'ShotOutcome'] = 'made'
+    df_.loc[df_.Action_Description.str.contains('missed'), 'ShotOutcome'] = 'missed'
 
     df_['ShotValue'] = 0
-    df_.loc[(df_['ShotOutcome']=='made')&(df_['AC'] =='FT'), 'ShotValue'] = 1
-    df_.loc[(df_['ShotOutcome']=='made')&(df_['AC'] == 'P2'), 'ShotValue'] = 2
-    df_.loc[(df_['ShotOutcome']=='made')&(df_['AC'] == 'P3'), 'ShotValue'] = 3
+    df_.loc[(df_['ShotOutcome']=='made')&(df_['Action_Description'].str.contains('free throw')), 'ShotValue'] = 1
+    df_.loc[(df_['ShotOutcome']=='made')&(df_['Action_Description'].str.contains('2pt|dunk')), 'ShotValue'] = 2
+    df_.loc[(df_['ShotOutcome']=='made')&(df_['Action_Description'].str.contains('3pt')), 'ShotValue'] = 3
 
     
-    df_ = df_[['Nationality','name', 'AC', 'Action', 'ShotValue', 'ShotOutcome','zoneBasic','distanceShot','zoneRange', 'seconds_elapsed']].reset_index(drop=True)
+    df_ = df_[['Team','Player', 'Action_Description', 'ShotValue', 'ShotOutcome', 'time_elapsed']].reset_index(drop=True)
     df_2 = calculate_assist_player(df_)
     df_2 = df_2.loc[df_['ShotOutcome']=='made']
     return df_,df_2
@@ -401,20 +401,22 @@ def create_offense_summary(df_2):
                        'Total Points',
                        '3 Points',
                        '2 Points',
-                       'Free Throw',
-                       'Avg. Shot Distance (feet)']
+                       'Free Throw']
+                    #    'Avg. Shot Distance (feet)']
 
     offense_extract = pd.DataFrame(columns=extract_columns)
     
-    a = df_2[['ShooterName','AssisterName','ShotValue','distanceShot']]
+    # a = df_2[['ShooterName','AssisterName','ShotValue','distanceShot']]
+    a = df_2[['ShooterName','AssisterName','ShotValue']]
     x = a
 
     total_points = x['ShotValue'].sum()
     total_points_3p = x.loc[(x['ShotValue']==3)]['ShotValue'].sum()
     total_points_2p = x.loc[(x['ShotValue']==2)]['ShotValue'].sum()
     total_points_1p = x.loc[(x['ShotValue']==1)]['ShotValue'].sum()
-    total_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
-    offensive_vector = ['Total',total_points, total_points_3p, total_points_2p , total_points_1p, total_points_dist]
+    # total_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
+    # offensive_vector = ['Total',total_points, total_points_3p, total_points_2p , total_points_1p, total_points_dist]
+    offensive_vector = ['Total',total_points, total_points_3p, total_points_2p , total_points_1p]
     offense_extract.loc[len(offense_extract)] = offensive_vector
 
     x = a.loc[(a['ShooterName'] ==a['AssisterName'])]
@@ -422,8 +424,9 @@ def create_offense_summary(df_2):
     assisted_points_3p = x.loc[(x['ShotValue']==3)]['ShotValue'].sum()
     assisted_points_2p = x.loc[(x['ShotValue']==2)]['ShotValue'].sum()
     assisted_points_1p = x.loc[(x['ShotValue']==1)]['ShotValue'].sum()
-    assisted_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
-    offensive_vector = ['Assisted',assisted_points, assisted_points_3p, assisted_points_2p , assisted_points_1p, assisted_points_dist]
+    # assisted_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
+    # offensive_vector = ['Assisted',assisted_points, assisted_points_3p, assisted_points_2p , assisted_points_1p, assisted_points_dist]
+    offensive_vector = ['Assisted',assisted_points, assisted_points_3p, assisted_points_2p , assisted_points_1p]
     offense_extract.loc[len(offense_extract)] = offensive_vector
 
     x = a.loc[(a['ShooterName'] !=a['AssisterName'])]
@@ -431,8 +434,9 @@ def create_offense_summary(df_2):
     solo_points_3p = x.loc[(x['ShotValue']==3)]['ShotValue'].sum()
     solo_points_2p = x.loc[(x['ShotValue']==2)]['ShotValue'].sum()
     solo_points_1p = x.loc[(x['ShotValue']==1)]['ShotValue'].sum()
-    solo_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
-    offensive_vector = ['Solo',solo_points, solo_points_3p, solo_points_2p , solo_points_1p, solo_points_dist]
+    # solo_points_dist = round(x.loc[(x['ShotValue']!=1)]['distanceShot'].mean(),2)
+    # offensive_vector = ['Solo',solo_points, solo_points_3p, solo_points_2p , solo_points_1p, solo_points_dist]
+    offensive_vector = ['Solo',solo_points, solo_points_3p, solo_points_2p , solo_points_1p]
     offense_extract.loc[len(offense_extract)] = offensive_vector
       
     return offense_extract

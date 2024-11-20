@@ -117,7 +117,7 @@ def get_starters_of_game(url):
 
 
 
-def get_team_actions(side,trigram, quarter, soup):
+def get_team_actions(side,trigram,num_quarters, quarter, soup):
     """
     This function retrieves the actions performed by a specific team during a given quarter of a game.
 
@@ -131,7 +131,7 @@ def get_team_actions(side,trigram, quarter, soup):
 
     """
     import pandas as pd
-    actions = soup.find_all("ul", class_="actions-list period_select_dependable")[4-quarter].find_all("li", class_=f"action-item x--team-{side}")
+    actions = soup.find_all("ul", class_="actions-list period_select_dependable")[num_quarters-quarter].find_all("li", class_=f"action-item x--team-{side}")
     df = pd.DataFrame()
     for i,action in enumerate(actions):
 
@@ -185,7 +185,7 @@ def get_team_actions(side,trigram, quarter, soup):
 
     # Display the DataFrame
     df = pd.concat([df, action_df])
-    df['Total_Seconds'] = pd.to_timedelta('00:' + df['Time']).dt.total_seconds() +(4-quarter)*600
+    df['Total_Seconds'] = pd.to_timedelta('00:' + df['Time']).dt.total_seconds() + (((4 - min(quarter, 4)) * 600) + min(1, (num_quarters-quarter)) * 300)
     return df
 
 
@@ -205,7 +205,7 @@ def custom_sort_pbp(df):
     df_sorted.drop(columns=['sort_key'], inplace=True)
     return df_sorted
 
-def concatenating_both_teams_quarter(quarter, soup, countryTri, oppTri):
+def concatenating_both_teams_quarter(num_quarters, quarter, soup, countryTri, oppTri):
     """
     Concatenates the actions performed by both teams during a specific quarter of a game.
 
@@ -217,8 +217,8 @@ def concatenating_both_teams_quarter(quarter, soup, countryTri, oppTri):
     - df_q (DataFrame): A pandas DataFrame containing the concatenated information for each action performed by both teams during the specified quarter.
 
     """
-    pbpQ_A =  get_team_actions('A',countryTri, quarter, soup)
-    pbpQ_B =  get_team_actions('B',oppTri, quarter, soup)
+    pbpQ_A =  get_team_actions('A',countryTri, num_quarters, quarter, soup)
+    pbpQ_B =  get_team_actions('B',oppTri, num_quarters, quarter, soup)
     df_q = pd.concat([pbpQ_A, pbpQ_B]).sort_values(by='Total_Seconds')
     return df_q
 
